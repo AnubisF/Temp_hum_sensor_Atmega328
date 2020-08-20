@@ -1,0 +1,4 @@
+Added Component: Designator=U?(SMD-3)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "ATSHA204A-RBHCZ-TCT-ND"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Temp_hum_sensor_Atmega328 Member=Component U? ATSHA204A-RBHCZ-T
