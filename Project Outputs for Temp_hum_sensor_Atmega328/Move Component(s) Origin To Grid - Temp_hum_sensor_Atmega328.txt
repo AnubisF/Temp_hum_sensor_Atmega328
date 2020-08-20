@@ -1,0 +1,5 @@
+Move Component Origin to Grid
+Filename     : D:\GitHub\Temp_hum_sensor_Atmega328\Temp_hum_sensor_Atmega328.PcbDoc
+Date         : 22.05.2020
+Time         : 10:01:36
+Time Elapsed : 00:00:00
