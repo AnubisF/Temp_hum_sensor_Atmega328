@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=GND Pin=U3-3
+Added Pin To Net: NetName=VCC Pin=U3-4
+Added Pin To Net: NetName=GND Pin=U3-5
+Added Pin To Net: NetName=VCC Pin=U3-6
+Added Pin To Net: NetName=VCC Pin=U3-18
+Added Pin To Net: NetName=GND Pin=U3-21
+Added Pin To Net: NetName=GND Pin=U3-33
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U3-20
+Added Net: Name=NetC3_2

@@ -1,0 +1,18 @@
+Added Component: Designator=LED1(INS126ASUW)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "IN-S121DAS5R5B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/in-s121das5r5b/inolux-corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.inolux-corp.com/datasheet/SMDLED/Bi-Color%20Side%20View/IN-S121DAS5R5B%20v1.0.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Inolux"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IN-S121DAS5R5B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "743-IN-S121DAS5R5B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=743-IN-S121DAS5R5B"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LED1-1
+Added Pin To Net: NetName=GND Pin=LED1-3
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Pin To Net: NetName=NetLED1_2 Pin=R7-2
+Added Net: Name=NetLED1_2
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=U3-2
+Added Net: Name=NetR7_1
+Added Member To Class: ClassName=Temp_hum_sensor_Atmega328 Member=Component LED1 IN-S121DAS5R5B

@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=VCC Pin=J1-4
+Added Member To Class: ClassName=Temp_hum_sensor_Atmega328 Member=Component SW2 TL1014BF160QG
