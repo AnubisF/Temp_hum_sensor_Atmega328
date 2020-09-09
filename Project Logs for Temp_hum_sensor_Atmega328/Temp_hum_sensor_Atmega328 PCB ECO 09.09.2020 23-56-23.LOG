@@ -1,0 +1,5 @@
+Change Net Name : Old Net Name=NetIC1_1 New Net Name=SDA
+Change Net Name : Old Net Name=NetIC1_6 New Net Name=SCL
+Change Net Name : Old Net Name=NetJ1_1 New Net Name=PD0
+Change Net Name : Old Net Name=NetJ1_2 New Net Name=PD1
+Change Net Name : Old Net Name=NetSW1_1 New Net Name=PD2

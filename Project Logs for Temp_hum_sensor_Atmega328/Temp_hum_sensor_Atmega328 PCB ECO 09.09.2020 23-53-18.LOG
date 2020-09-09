@@ -1,0 +1,8 @@
+Change Net Name : Old Net Name=NetC7_2 New Net Name=Reset
+Change Net Name : Old Net Name=NetR1_1 New Net Name=PB0
+Change Net Name : Old Net Name=NetR2_2 New Net Name=ADC3
+Change Net Name : Old Net Name=NetU1_2 New Net Name=MISO
+Change Net Name : Old Net Name=NetU1_5 New Net Name=MOSI
+Change Net Name : Old Net Name=NetU1_6 New Net Name=SCK
+Change Net Name : Old Net Name=NetU2_5 New Net Name=PB2
+Change Net Name : Old Net Name=NetU2_6 New Net Name=PB1
