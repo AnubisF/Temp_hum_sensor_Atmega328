@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=PD2 Pin=SW1-1
+Added Pin To Net: NetName=PD2 Pin=SW1-3
