@@ -1,0 +1,23 @@
+CIRCUIT NAME := "New Project"
+
+  COMPAT_VERSION := 1; // Base
+
+  BOARD NAME := "Temp_hum_sensor_Atmega328"
+    FILENAME := "Board-Temp_hum_sensor_Atmega328.xje";
+  END; // End of board Temp_hum_sensor_Atmega328
+
+  // JTAG interface description
+  JTAG CHAIN
+    CONNECTOR "JTAG Header"
+      MAPPING
+        XJTAG;
+      END;
+    END;
+  END;
+
+  // Additional files
+  FILES
+    "globals.xje";
+  END;
+END;
+

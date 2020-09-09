@@ -1,0 +1,13 @@
+COMPAT_VERSION := 3; // AutomaticNetlistIdentification
+NETLIST := "D:\\GitHub\\Temp_hum_sensor_Atmega328\\XJTAG\\Temp_hum_sensor_Atmega328.net";
+
+POWER LIST
+  GROUND := "GND";
+  POWER := "VCC";
+END;
+
+JTAG LIST
+END;
+
+DEVICE LIST
+END;

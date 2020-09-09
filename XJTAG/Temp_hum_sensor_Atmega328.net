@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NetList>
+  <Component Reference="B1">
+    <Value>KEYSTONE 1053</Value>
+  </Component>
+  <Component Reference="C1">
+    <Value>4.7μF</Value>
+  </Component>
+  <Component Reference="C2">
+    <Description>CAP CER 0805 10% X8R 50V 100NF</Description>
+    <Value>0.1µF</Value>
+  </Component>
+  <Component Reference="C3">
+    <Description>CAP CER 0805 10% X8R 50V 100NF</Description>
+    <Value>0.1µF</Value>
+  </Component>
+  <Component Reference="C4">
+    <Description>CAP CER 0805 10% X8R 50V 100NF</Description>
+    <Value>0.1µF</Value>
+  </Component>
+  <Component Reference="C5">
+    <Description>CAP CER 0805 10% X8R 50V 100NF</Description>
+    <Value>0.1µF</Value>
+  </Component>
+  <Component Reference="C6">
+    <Description>CAP CER 0805 10% X8R 50V 100NF</Description>
+    <Value>0.1µF</Value>
+  </Component>
+  <Component Reference="C7">
+    <Description>CAP CER 0805 10% X8R 50V 100NF</Description>
+    <Value>0.1µF</Value>
+  </Component>
+  <Component Reference="IC1">
+    <Description>SENSOR DIGITAL -40C-125C 6DFN</Description>
+    <Value>SENSIRION STS21</Value>
+  </Component>
+  <Component Reference="J1">
+    <Description>Connector</Description>
+    <Value>M503100345</Value>
+  </Component>
+  <Component Reference="J2">
+    <Description>Connector</Description>
+    <Value>M503100345</Value>
+  </Component>
+  <Component Reference="LED1">
+    <Description>LED</Description>
+    <Value>INS126ASUW</Value>
+  </Component>
+  <Component Reference="R1">
+    <Description>RES 20 KOHMS 0.1% 1/5W 0805</Description>
+    <Value>20 kOhms</Value>
+  </Component>
+  <Component Reference="R2">
+    <Description>RES 4.7K OHM 0.1% 1/5W 0805</Description>
+    <Value>4.7 kOhms</Value>
+  </Component>
+  <Component Reference="R3">
+    <Description>RES 4.7K OHM 0.1% 1/5W 0805</Description>
+    <Value>4.7 K</Value>
+  </Component>
+  <Component Reference="R4">
+    <Description>RES 4.7K OHM 0.1% 1/5W 0805</Description>
+    <Value>4.7 K</Value>
+  </Component>
+  <Component Reference="R5">
+    <Description>CRGP 0805 470K 1%</Description>
+    <Value>470 kOhms</Value>
+  </Component>
+  <Component Reference="R6">
+    <Description>RES SMD 1M OHM 1% 0.4W 0805</Description>
+    <Value>1 MOhms</Value>
+  </Component>
+  <Component Reference="R7">
+    <Description>CRGP 0805 18K 1%</Description>
+    <Value>18 kOhms</Value>
+  </Component>
+  <Component Reference="R8">
+    <Description>RES 10K OHM 0.1% 1/10W 0805</Description>
+    <Value>10 kOhms</Value>
+  </Component>
+  <Component Reference="SW1">
+    <Value>E-Switch_TL1014BF160QG_0</Value>
+  </Component>
+  <Component Reference="SW2">
+    <Value>E-Switch_TL1014BF160QG_0</Value>
+  </Component>
+  <Component Reference="U1">
+    <Value>SOIC127P600X175-8N</Value>
+  </Component>
+  <Component Reference="U2">
+    <Description>Wi-Fi</Description>
+    <Value>MOD: NRF24 Mini SMD</Value>
+  </Component>
+  <Component Reference="U3">
+    <Value>QFN-32 (5X5)</Value>
+  </Component>
+  <Component Reference="U4">
+    <Value>SOT23-3</Value>
+  </Component>
+  <Component Reference="Z1">
+    <Value>OSC: 3215</Value>
+  </Component>
+  <Net Name="GND">
+    <Pin Component="B1" Number="2" />
+    <Pin Component="C1" Number="2" />
+    <Pin Component="C2" Number="2" />
+    <Pin Component="C3" Number="1" />
+    <Pin Component="C4" Number="1" />
+    <Pin Component="C5" Number="1" />
+    <Pin Component="C6" Number="1" />
+    <Pin Component="IC1" Number="2" />
+    <Pin Component="IC1" Number="7" />
+    <Pin Component="J1" Number="3" />
+    <Pin Component="J1" Number="6" />
+    <Pin Component="LED1" Number="1" />
+    <Pin Component="LED1" Number="3" />
+    <Pin Component="U1" Number="4" />
+    <Pin Component="U2" Number="7" />
+    <Pin Component="U3" Number="21" />
+    <Pin Component="U3" Number="3" />
+    <Pin Component="U3" Number="33" />
+    <Pin Component="U3" Number="5" />
+    <Pin Component="U4" Number="3" />
+  </Net>
+  <Net Name="NetC3_2">
+    <Pin Component="C3" Number="2" />
+    <Pin Component="U3" Number="20" />
+  </Net>
+  <Net Name="NetC7_1">
+    <Pin Component="C7" Number="1" />
+    <Pin Component="U3" Number="29" />
+  </Net>
+  <Net Name="NetC7_2">
+    <Pin Component="C7" Number="2" />
+    <Pin Component="J1" Number="5" />
+    <Pin Component="J2" Number="3" />
+  </Net>
+  <Net Name="NetIC1_1">
+    <Pin Component="IC1" Number="1" />
+    <Pin Component="R3" Number="2" />
+  </Net>
+  <Net Name="NetIC1_6">
+    <Pin Component="IC1" Number="6" />
+    <Pin Component="R4" Number="2" />
+  </Net>
+  <Net Name="NetJ1_1">
+    <Pin Component="J1" Number="1" />
+    <Pin Component="U3" Number="30" />
+  </Net>
+  <Net Name="NetJ1_2">
+    <Pin Component="J1" Number="2" />
+    <Pin Component="U3" Number="31" />
+  </Net>
+  <Net Name="NetJ2_1">
+    <Pin Component="J2" Number="1" />
+  </Net>
+  <Net Name="NetJ2_2">
+    <Pin Component="J2" Number="2" />
+  </Net>
+  <Net Name="NetJ2_4">
+    <Pin Component="J2" Number="4" />
+  </Net>
+  <Net Name="NetJ2_5">
+    <Pin Component="J2" Number="5" />
+  </Net>
+  <Net Name="NetJ2_6">
+    <Pin Component="J2" Number="6" />
+  </Net>
+  <Net Name="NetLED1_2">
+    <Pin Component="LED1" Number="2" />
+    <Pin Component="R7" Number="2" />
+  </Net>
+  <Net Name="NetR1_1">
+    <Pin Component="R1" Number="1" />
+    <Pin Component="U1" Number="1" />
+    <Pin Component="U3" Number="12" />
+  </Net>
+  <Net Name="NetR1_2">
+    <Pin Component="R1" Number="2" />
+    <Pin Component="U1" Number="3" />
+  </Net>
+  <Net Name="NetR2_2">
+    <Pin Component="R2" Number="2" />
+    <Pin Component="U3" Number="26" />
+    <Pin Component="U4" Number="1" />
+  </Net>
+  <Net Name="NetR3_1">
+    <Pin Component="R3" Number="1" />
+    <Pin Component="U3" Number="27" />
+  </Net>
+  <Net Name="NetR4_1">
+    <Pin Component="R4" Number="1" />
+    <Pin Component="U3" Number="28" />
+  </Net>
+  <Net Name="NetR5_1">
+    <Pin Component="R5" Number="1" />
+  </Net>
+  <Net Name="NetR5_2">
+    <Pin Component="R5" Number="2" />
+  </Net>
+  <Net Name="NetR6_1">
+    <Pin Component="R6" Number="1" />
+  </Net>
+  <Net Name="NetR6_2">
+    <Pin Component="R6" Number="2" />
+  </Net>
+  <Net Name="NetR7_1">
+    <Pin Component="R7" Number="1" />
+    <Pin Component="U3" Number="2" />
+  </Net>
+  <Net Name="NetR8_1">
+    <Pin Component="R8" Number="1" />
+  </Net>
+  <Net Name="NetR8_2">
+    <Pin Component="R8" Number="2" />
+  </Net>
+  <Net Name="NetSW1_1">
+    <Pin Component="SW1" Number="1" />
+    <Pin Component="U3" Number="32" />
+  </Net>
+  <Net Name="NetSW1_2">
+    <Pin Component="SW1" Number="2" />
+  </Net>
+  <Net Name="NetSW1_3">
+    <Pin Component="SW1" Number="3" />
+  </Net>
+  <Net Name="NetSW1_4">
+    <Pin Component="SW1" Number="4" />
+  </Net>
+  <Net Name="NetSW2_1">
+    <Pin Component="SW2" Number="1" />
+  </Net>
+  <Net Name="NetSW2_2">
+    <Pin Component="SW2" Number="2" />
+  </Net>
+  <Net Name="NetSW2_3">
+    <Pin Component="SW2" Number="3" />
+  </Net>
+  <Net Name="NetSW2_4">
+    <Pin Component="SW2" Number="4" />
+  </Net>
+  <Net Name="NetU1_2">
+    <Pin Component="U1" Number="2" />
+    <Pin Component="U2" Number="2" />
+    <Pin Component="U3" Number="16" />
+  </Net>
+  <Net Name="NetU1_5">
+    <Pin Component="U1" Number="5" />
+    <Pin Component="U2" Number="3" />
+    <Pin Component="U3" Number="15" />
+  </Net>
+  <Net Name="NetU1_6">
+    <Pin Component="U1" Number="6" />
+    <Pin Component="U2" Number="4" />
+  </Net>
+  <Net Name="NetU2_1">
+    <Pin Component="U2" Number="1" />
+  </Net>
+  <Net Name="NetU2_5">
+    <Pin Component="U2" Number="5" />
+    <Pin Component="U3" Number="14" />
+  </Net>
+  <Net Name="NetU2_6">
+    <Pin Component="U2" Number="6" />
+    <Pin Component="U3" Number="13" />
+  </Net>
+  <Net Name="NetU3_1">
+    <Pin Component="U3" Number="1" />
+  </Net>
+  <Net Name="NetU3_10">
+    <Pin Component="U3" Number="10" />
+  </Net>
+  <Net Name="NetU3_11">
+    <Pin Component="U3" Number="11" />
+  </Net>
+  <Net Name="NetU3_17">
+    <Pin Component="U3" Number="17" />
+  </Net>
+  <Net Name="NetU3_19">
+    <Pin Component="U3" Number="19" />
+  </Net>
+  <Net Name="NetU3_22">
+    <Pin Component="U3" Number="22" />
+  </Net>
+  <Net Name="NetU3_23">
+    <Pin Component="U3" Number="23" />
+  </Net>
+  <Net Name="NetU3_24">
+    <Pin Component="U3" Number="24" />
+  </Net>
+  <Net Name="NetU3_25">
+    <Pin Component="U3" Number="25" />
+  </Net>
+  <Net Name="NetU3_7">
+    <Pin Component="U3" Number="7" />
+    <Pin Component="Z1" Number="2" />
+  </Net>
+  <Net Name="NetU3_8">
+    <Pin Component="U3" Number="8" />
+    <Pin Component="Z1" Number="1" />
+  </Net>
+  <Net Name="NetU3_9">
+    <Pin Component="U3" Number="9" />
+  </Net>
+  <Net Name="VCC">
+    <Pin Component="B1" Number="1" />
+    <Pin Component="C1" Number="1" />
+    <Pin Component="C2" Number="1" />
+    <Pin Component="C4" Number="2" />
+    <Pin Component="C5" Number="2" />
+    <Pin Component="C6" Number="2" />
+    <Pin Component="IC1" Number="5" />
+    <Pin Component="J1" Number="4" />
+    <Pin Component="R2" Number="1" />
+    <Pin Component="U1" Number="7" />
+    <Pin Component="U1" Number="8" />
+    <Pin Component="U2" Number="8" />
+    <Pin Component="U3" Number="18" />
+    <Pin Component="U3" Number="4" />
+    <Pin Component="U3" Number="6" />
+    <Pin Component="U4" Number="2" />
+  </Net>
+</NetList>

@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=J1-5
+Added Net: Name=NetC7_2
+Added Member To Class: ClassName=Temp_hum_sensor_Atmega328 Member=Component LED1 IN-S121DAS5R5B
