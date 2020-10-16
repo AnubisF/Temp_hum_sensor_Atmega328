@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=NetSW1_2 Pin=SW1-2
+Removed Pin From Net: NetName=PD2 Pin=SW1-3
+Removed Member From Class: ClassName=Temp_hum_sensor_Atmega328 Member=SW1
+Change Component Footprint: Designator=SW2 Old Footprint=E-Switch_TL1014BF160QG_0 New Footprint=4363x10458xx
+Change Component Comment : Designator=SW2 Old Comment=TL1014BF160QG New Comment=436331045822
+Change Component Designator: OldDesignator=S? NewDesignator=SW1
+Change component parameters: Designator = "SW2" ("SW2"); Footprint = "E-Switch_TL1014BF160QG_0"; UniqueID = "\EZEQWSGP" ("\EZEQWSGP")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://katalog.we-online.com/em/datasheet/436331045822.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Stainless Steel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.65mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 to +85degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operation Force"; Value = "220gf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "436331045822"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published Date"; Value = "September 2019"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "50mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "12VDC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Terminal Material"; Value = "Copper Alloy"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Terminal Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Washable"; Value = "No"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetSW1_2 Pin=SW1-2
+Added Pin To Net: NetName=PD2 Pin=SW1-3
